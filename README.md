@@ -26,8 +26,10 @@ Formerly worked on systems-level game development and now exploring large-scale 
 #### 🟩 [VoxelRenderer](https://github.com/TreeDevv/VoxelRenderer)
 A Minecraft-style voxel engine written in modern C++ and OpenGL 4.  
 - Custom chunk meshing and ambient occlusion  
-- VAO/VBO/IBO rendering pipeline  
-- Built from scratch to explore engine architecture and real-time performance  
+- GPU rendering pipeline  
+- Built from scratch to explore engine architecture and real-time performance
+- Infinitely generated worlds using simplex noise
+- Multithreaded chunk rendering using a custom implementation of **ThreadPool**
 
 ---
 
